@@ -40,7 +40,7 @@ steps:
   displayName: 'Restore project dependencies'
   inputs:
     command: 'restore'
-    restoreSolution: '**/*.sln'
+    restoreSolution: '**/*.csproj'
     feedsToUse: 'select'
     vstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
 
